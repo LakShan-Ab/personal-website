@@ -1,37 +1,71 @@
 body {
     margin: 0px;
-    text-align: center;
-    font-family: 'Merriweather',serif;
+    
 }
 
 
 .top-container {
     margin: 0;
-    background-color: rgb(255, 255, 255);
-    height: 900px;
+    height: 750px;
     padding-top: 10px;
-    font-family: 'Open Sans' , sans-serif;
-    background-image: url();
+    font-family: 'Kaushan Script', cursive;
+    background-image: url(../Image/kevin-mueller-UQ7Cdj5JY9Q-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0px 118px;
+    text-align: center;
 }
 
 
+p1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 550%;
+}
+
+
+p2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+}
+
+p3 {
+    font-size: 120%;
+    font-family: 'Khula', sans-serif;
+}
+
+
+p4 {
+    font-size: 130%;
+    font-family: 'Khula', sans-serif;
+}
+
 h2 {
     margin: 50 auto 40px auto;
-    color: black;
-    font-family: 'Caveat',cursive;
-    font-size: 8fr;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 225%;
 }
 
 
 h3 {
     margin: 0 0 50px;
-    font-family: 'Open Sans',sans-serif;
-    color: dimgray;
-    font-size: 3rem;
+    font-family: 'Khula', sans-serif;
+    font-size: 130%;
     font-weight: lighter;
+}
+
+
+h4 {
+    font-family: 'Klee One', cursive;
+    font-size: 130%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+
+}
+
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -41,8 +75,8 @@ p {
 
 
 hr {
-    border-style: none;
-    border-top-style: inherit;
+    border-style: dotted;
+    border-top-style: double;
     border-color: grey;
     border-width: 5px;
     border-spacing: 20px;
@@ -51,70 +85,104 @@ hr {
 
 .profile-img {
     margin-top: 50px;
-    width: 25%;
+    width: 30%;
     padding-bottom: 50px;
 }
 
 
-.side-details {
+.split {
+    height: 100%;
     width: 50%;
-    margin: 50px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    padding-bottom: 25px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
 
+.split-left {
+    left: 0;
+}
 
-.profile {
-    padding-bottom: 25px;
+
+.split-right {
+    right: 0;
+}
+
+
+.centered {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.skills {
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 3;
+}
+
+.education {
+    text-align: center;
+    line-height: 2;
 }
 
 
 .other-skills {
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
+    line-height: 3;
 }
 
 
 .bottom-container {
-    background-color: goldenrod;
-    padding: 40px 0 5px;
+    background-color: hsl(71, 100%, 78%);
+    padding: 5px;
+    text-align: center;
 }
 
 
 .social-media-btn {
     border: 0ch;
     background: none;
-    margin: 0 2px;
+    margin-bottom: 30px;
+    
 }
 
 
 .facebook-img {
-    width: 10%;
+    width: 60%;
 }
 
 
 .instagram-img {
-    width: 10%;
+    width: 60%;
 }
 
 
 .snapchat-img {
-    width: 10%;
+    width: 60%;
 }
 
 
 .pinterest-img {
-    width: 10%;
+    width: 60%;
 }
 
 
 .twitter-img {
-    width: 10%;
+    width: 60%;
 }
 
 
 .linkedin-img {
-    width: 10%;
+    width: 60%;
 }
