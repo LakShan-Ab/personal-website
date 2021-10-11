@@ -18,6 +18,7 @@ h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 550%;
     color: white;
+    float: initial;
 }
 
 
