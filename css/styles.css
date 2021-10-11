@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 750px;
     padding-top: 10px;
-    background-image: url(../Image/kevin-mueller-UQ7Cdj5JY9Q-unsplash.jpg);
+    background-image: url(../Image/pexels-evgeny-tchebotarev-4101555.jpg);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -17,6 +17,7 @@ body {
 h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 550%;
+    color: white;
 }
 
 
@@ -37,15 +38,16 @@ p1 {
 
 
 .profile-img {
-    width: 100%;
-    margin: 100px 0 100px 70px;
+    width: 45%;
+    margin: 100px 10px 100px 150px;
 }
 
 
 .about-me {
-    margin: 100px 0 100px 150px;
+    margin: 100px 110px 100px 10px;
     width: 80%;
     background-color: #e7f5fe;
+    text-align: justify;
     /* margin-right: auto;
     margin-left: auto; */
 }
