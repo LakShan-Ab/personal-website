@@ -21,8 +21,18 @@
         max-width: 20%;
         font-size: 20px;
     }
+    .education {
+        margin: 0 5% 0 5%;
+    }
+    .other-education {
+        margin: 0 5% 0 5%;
+    }
+    .other-skills{
+        margin: 0 5% 0 5%;
+    }
     .bottom-container {
         width: 50%;
+        margin: 0 5% 0 5%;
     }
 }
 
