@@ -1,6 +1,5 @@
 body {
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
 
@@ -8,7 +7,6 @@ body {
     margin: 0;
     height: 750px;
     padding-top: 10px;
-    font-family: 'Kaushan Script', cursive;
     background-image: url(../Image/kevin-mueller-UQ7Cdj5JY9Q-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -16,122 +14,93 @@ body {
 }
 
 
-p1 {
+h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 550%;
 }
 
 
-p2 {
+p1 {
     font-family: 'Raleway', sans-serif;
     font-size: 250%;
 }
 
-p3 {
-    font-size: 120%;
-    font-family: 'Khula', sans-serif;
+
+.middle-container {
+    background-color: #ceebfd;
 }
 
 
-p4 {
-    font-size: 130%;
-    font-family: 'Khula', sans-serif;
+.profile-container {
+    background-color: #e7f5fe;
 }
+
+
+.profile-img {
+    width: 100%;
+    margin: 100px 0 100px 70px;
+}
+
+
+.about-me {
+    margin: 100px 0 100px 150px;
+    width: 80%;
+    background-color: #e7f5fe;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+
+p2 {
+    font-size: 150%;
+    font-family: 'Khula', sans-serif;
+    text-align: justify;
+}
+
+
+.skills-languages {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    line-height: 3;
+}
+
+
 
 h2 {
-    margin: 50 auto 40px auto;
     font-family: 'Titillium Web', sans-serif;
     font-size: 225%;
 }
 
 
+p3 {
+    font-size: 130%;
+    font-family: 'Khula', sans-serif;
+}
+
+
+.education {
+    text-align: center;
+    line-height: 2;
+}
+
+
 h3 {
-    margin: 0 0 50px;
     font-family: 'Khula', sans-serif;
     font-size: 130%;
     font-weight: lighter;
 }
 
 
-h4 {
-    font-family: 'Klee One', cursive;
+p4 {
+    font-family: 'Khula', sans-serif;
     font-size: 130%;
     text-align: center;
-    padding: 0 10% 0 10%;
-
-}
-
-h5 {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    margin-bottom: 30px;
-
 }
 
 
-p {
-    line-height: 2;
-}
-
-
-hr {
-    border-style: dotted;
-    border-top-style: double;
-    border-color: grey;
-    border-width: 5px;
-    border-spacing: 20px;
-}
-
-
-.profile-img {
-    margin-top: 50px;
-    width: 30%;
-    padding-bottom: 50px;
-}
-
-
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-
-.split-left {
-    left: 0;
-}
-
-
-.split-right {
-    right: 0;
-}
-
-
-.centered {
-    position: absolute;
-    top: 170%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.other-education {
     text-align: center;
-}
-
-
-.skills {
-    position: absolute;
-    top: 270%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    line-height: 3;
-}
-
-.education {
-    text-align: center;
-    line-height: 2;
 }
 
 
@@ -144,19 +113,34 @@ hr {
 
 
 .bottom-container {
-    background-color: hsl(71, 100%, 78%);
-    padding: 5px;
+    background-color: #9dd7fb;
+    padding: 40px 0 5px;
     text-align: center;
 }
 
 
-.social-media-btn {
-    border: 0ch;
-    background: none;
-    margin-bottom: 30px;
-    
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    margin: 5px 0;
 }
 
+
+h6 {
+    font-size: 15px;
+    font-family: 'Raleway';
+    margin: 25px 0 0 25px;
+}
+
+.social-media-btn {
+    background-color: #9dd7fb;
+    border: 0ch;
+    margin: 20px 1px ;
+}
+
+.social-media-btn:hover {
+    background-color: #b6e1fc;
+}
 
 .facebook-img {
     width: 60%;
