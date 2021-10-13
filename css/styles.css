@@ -19,9 +19,16 @@ body {
 
 @media screen and (min-width: 414px) {
     .top-container {
+        margin-top: auto;
+        margin-bottom: auto;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+
+    .middle-container {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
