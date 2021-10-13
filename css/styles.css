@@ -17,6 +17,15 @@ body {
 }
 
 
+@media screen and (min-width: 414px) {
+    .top-container {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
 h1 {
     position: absolute;
 left: 17.68%;
