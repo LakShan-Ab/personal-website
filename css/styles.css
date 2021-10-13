@@ -1,42 +1,3 @@
-@media only screen and (max-width: 480px) {
-    /*For mobile: */
-    .top-container {
-        width: 100%;
-    }
-    .h1 {
-        font-size: 50%;
-    }
-    .p1 {
-        font-size: 40%;
-    }
-    .profile-img {
-        width: auto;
-    }
-    .about-me {
-        width: auto;
-        font-size: 50%;
-    }
-    .skills-languages {
-        text-align: center;
-        max-width: 20%;
-        font-size: 50%;
-        size: 50%;
-    }
-    .education {
-        margin: 0 5% 0 5%;
-    }
-    .other-education {
-        margin: 0 5% 0 5%;
-    }
-    .other-skills{
-        margin: 0 5% 0 5%;
-    }
-    .bottom-container {
-        size: 30%;
-    }
-}
-
-
 body {
     margin: 0px;
     text-align: center;
@@ -44,31 +5,54 @@ body {
 
 
 .top-container {
-    margin: 0;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 10.93%;
     height: 750px;
     padding-top: 10px;
     background-image: url(../Image/pexels-evgeny-tchebotarev-4101555.jpg);
     background-attachment: fixed;
     background-size: cover;
-    text-align: center;
-    background-position: 0px 20px;
-    margin: 0 auto 0 auto;
 }
 
 
 h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 70px;
-    float: initial;
-    margin: 60 auto 40 auto;
+    position: absolute;
+left: 17.68%;
+right: 17.77%;
+top: 8%;
+bottom: 79.87%;
+
+font-family: Kaushan Script;
+font-style: normal;
+font-weight: normal;
+font-size: 65px;
+line-height: 94px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #000000;
+    
 }
 
 
 p1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    color: white;
-    margin: 0 auto 0 auto;
+    position: absolute;
+left: 21.58%;
+right: 21.58%;
+top: 45%;
+bottom: 68.27%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.07em;
+
+color: #FFFFFF;
 }
 
 
@@ -84,22 +68,21 @@ p1 {
 
 .profile-img {
     width: 45%;
-    margin: 100px 80px 100px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
 .about-me {
-    margin: 100px 80px 100px 20px;
-    
-    background-color: #e7f5fe;
+    margin-right: 140px;
     text-align: justify;
-    /* margin-right: auto;
-    margin-left: auto; */
 }
 
 
 p2 {
-    font-size: 150%;
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: 0.03em;
     font-family: 'Khula', sans-serif;
     text-align: justify;
     margin: 0 auto 0 auto;
@@ -167,7 +150,7 @@ p4 {
 
 .bottom-container {
     background-color: #9dd7fb;
-    padding: 40px 0 5px;
+    padding: 10px 0 5px;
     text-align: center;
 }
 
@@ -175,7 +158,7 @@ p4 {
 h5 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
-    margin: 5px 0;
+    margin-bottom: 25px;
 }
 
 
@@ -188,7 +171,6 @@ h6 {
 .social-media-btn {
     background-color: #9dd7fb;
     border: 0ch;
-    margin: 20px 1px ;
 }
 
 .social-media-btn:hover {
