@@ -118,7 +118,7 @@ p2 {
     .columns {
         flex-direction: column;
         align-items: center;
-        margin: 1em 0;
+        margin: .5em 0;
     }
 }
 
@@ -145,10 +145,14 @@ h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.3rem;
 }
-
+@media (max-width: 400px) {
+    .h2 {
+        font-size: 1.5rem;
+    }
+}
 
 p3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Khula', sans-serif;
 }
 
