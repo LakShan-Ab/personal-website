@@ -83,6 +83,7 @@ p1 {
 @media (max-width: 400px) {
     .profile-container {
         flex-direction: column;
+        text-align: justify;
     }
 }
 
@@ -117,6 +118,7 @@ p2 {
     .columns {
         flex-direction: column;
         align-items: center;
+        margin: 1em 0;
     }
 }
 
