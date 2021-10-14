@@ -1,95 +1,70 @@
 body {
     margin: 0px;
-    text-align: center;
 }
 
 
 .top-container {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 10.93%;
-    height: 750px;
-    padding-top: 10px;
+    max-width: 100%;
+    height: 800px;
     background-image: url(../Image/pexels-evgeny-tchebotarev-4101555.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 400px) and (orientation: landscape) {
     .top-container {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
     }
-    h1 {
+    .h1 {
         text-align: center;
         font-size: 2rem;
     }
-    p1 {
+    .p1 {
         text-align: center;
-        font-size: 1rem;
-        top: 50%;
     }
-
-    .skills-languages {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .education {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .other-education {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .other-skills {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+    
 }
 
 
 h1 {
     position: absolute;
-left: 17.68%;
-right: 17.77%;
-top: 8%;
-bottom: 79.87%;
+    left: 17.68%;
+    right: 17.77%;
+    top: 8%;
+    bottom: 79.87%;
 
-font-family: Kaushan Script;
-font-style: normal;
-font-weight: normal;
-font-size: 4.5rem;
-line-height: 94px;
-text-align: center;
-letter-spacing: 0.03em;
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: #000000;
+    color: #000000;
     
 }
 
 
 p1 {
     position: absolute;
-left: 21.58%;
-right: 21.58%;
-top: 45%;
-bottom: 68.27%;
+    left: 21.58%;
+    right: 21.58%;
+    top: 45%;
+    bottom: 68.27%;
 
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3rem;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.07em;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.07em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -100,19 +75,27 @@ color: #FFFFFF;
 
 .profile-container {
     background-color: #e7f5fe;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
 }
-
+@media (max-width: 400px) {
+    .profile-container {
+        flex-direction: column;
+    }
+}
 
 .profile-img {
     width: 45%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 
 .about-me {
-    margin-right: 140px;
     text-align: justify;
+    width: 90%;
 }
 
 
@@ -121,31 +104,48 @@ p2 {
     line-height: 55px;
     letter-spacing: 0.03em;
     font-family: 'Khula', sans-serif;
-    text-align: justify;
-    margin: 0 auto 0 auto;
 }
 
 
-.skills-languages {
+.columns {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
     line-height: 3;
 }
+@media (max-width: 400px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
+
+.skills {
+    width: 50%;
+}
+
+
+.languages {
+    width: 50%;
+}
+@media (max-width: 400px) {
+    .skills,
+    .languages {
+        width: 100%;
+    }
+}
 
 
 h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.3rem;
-    margin: 0 auto 0 auto;
 }
 
 
 p3 {
     font-size: 1.5rem;
     font-family: 'Khula', sans-serif;
-    margin: 0 auto 0 auto;
 }
 
 
